@@ -31,6 +31,6 @@ sudo openconnect --cafile=CA.cer -c <filename>.pfx -u your.login  -v --script=/e
 
 --script=/etc/vpnc/vpnc-script -> set correct routing
 
-In console if you have pfx password protected then insert your password
-if there will be prompt for allowing server press enter (default 'yes')
-insert your password for your account
+- In console if you have pfx password protected then insert your password
+- if there will be prompt for allowing server press enter (default 'yes')
+- insert your password for your account
