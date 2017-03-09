@@ -34,3 +34,15 @@ sudo openconnect --cafile=CA.cer -c <filename>.pfx -u your.login  -v --script=/e
 - In console if you have pfx password protected then insert your password
 - if there will be prompt for allowing server press enter (default 'yes')
 - insert your password for your account
+
+or
+
+edit connect.sh file and set:
+- Your cart password
+- sha256 hash of server connecting to
+
+then:
+```sh
+chmod +x connect.sh
+./connect.sh
+```
